@@ -1,0 +1,264 @@
+html{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    padding: 0px;
+}
+
+.column .is-full{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+/* header/navbar style */
+#background {
+    height: 600px;
+    max-width: 1366px;
+    background-size: cover;
+    margin: 0rem;
+    padding: 0rem
+}
+
+.logo{
+    margin-left: 40%;
+    margin-top: 16px;
+    
+}
+
+#header{
+    padding: 0px;
+}
+
+#navbar-home{
+    background-color: black;
+}
+
+a{
+    color: #fff !important;
+}
+
+#navbar-attr1 {
+    margin-left: 13%;
+    padding-left: 3%;
+    font-size: 14px;
+}
+
+#navbar-attr2{
+    margin-left: 4%;
+    padding-left: 3%;
+    font-size: 14px;
+}
+
+#navbar-attr3{
+    margin-left: 4%;
+    padding-left: 3%;
+    font-size: 14px;
+}
+
+#navbar-attr4{
+    margin-left: 4%;
+    padding-left: 3%;
+    font-size: 14px;
+}
+
+#navbar-attr5{
+    margin-left: 4%;
+    padding-left: 3%;
+    font-size: 14px;
+}
+
+
+/* header/navbar style end */
+
+/* section 1 style */
+
+#section1-parent{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#section1{
+    height: 600px;
+    max-width: 1366px;
+    background-size: cover;
+    margin: 0rem;
+    padding: 0rem;
+    
+    
+}
+
+#mask-opacity{
+    height: 600px;
+    max-width: 1366px;
+    background-color: rgba(6, 6, 0, 0.9);
+    background-size: cover;
+    margin: 0rem;
+    padding: 0rem;
+    
+
+}
+
+.section1-title{
+    font-size: 53px;
+    font-weight: 400;
+    margin-left: 22%;
+    padding-top: 11%;
+}
+
+.text-section-1{
+    color: #fff;
+    text-align: center;
+    padding: 10%;
+}
+
+
+
+
+
+/* end of section 1 style  */
+
+/* start of section 2 style */
+
+#section2-parent{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#section2{
+    height: 300px;
+    max-width: 1366px;
+    background-size: cover;
+    margin: 0rem;
+    padding: 0rem;
+    border-bottom-color: black;
+    border-bottom-style: outset;
+    border-bottom-width: 3.5px;
+    
+    
+}
+
+#mask-opacity2{
+    height: 300px;
+    max-width: 1366px;
+    background-color: rgba(6, 6, 0, 0.7);
+    background-size: cover;
+    margin: 0rem;
+    padding: 0rem;
+    
+    
+
+}
+
+.section2-title{
+    color: #fff !important;
+    padding-top: 60px;
+    font-size: 50px;
+    margin-left: 100px;
+    
+}
+
+.text-section-2{
+    margin-left: 100px;
+    margin-right: 800px;
+    color: #fff;
+    
+}
+
+.text-section-2-right{
+    margin-left: 800px;
+    margin-right: 100px;
+    color: #fff;
+    margin-top: -190px;
+}
+
+#section2-sub1 {
+    height: 500px;
+    max-width: 1366px;
+    background-color: #100f0f;
+}
+
+/* end of section 2 style */
+
+/* start of section 3 style */
+
+#section3-parent{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#section3{
+    height: 600px;
+    max-width: 1366px;
+    background-size: cover;
+    margin: 0rem;
+    padding: 0rem;
+    
+    
+    
+}
+
+#media{
+    margin-top: 100px;
+    margin-left: 10%;
+    border-top: none;
+}
+
+#media-left{
+    margin-left: 0%;
+    margin-right: 0rem;
+}
+
+#media-center{
+    margin-left: 1%;
+} 
+
+#media-right{
+    margin-left: 1%;
+}
+#button-section3{
+    background-color: #000;
+    width: 300px;
+    color: #fff;
+    border-radius: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 38.5%;
+    height: 50px;
+    font-size: 18px;
+}
+
+
+
+
+/* end of section 3 style */
+
+footer{
+    height: 500px;
+    max-width: 1366px;
+    background: #171717 
+    
+}
+
+.spd-logo-footer{
+    background-image: url('spd-asset/footer_logo.png');
+    background-size: cover;
+    height: 500px;
+    width: 510px;
+    margin-right: 46px;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.logo-footer-sc{
+    margin-left: 38.6%;
+    height: 25px;
+    margin-top: 55px;
+}
+
+
+
