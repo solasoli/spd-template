@@ -20,12 +20,13 @@ div{
     background-color:#000; 
 }
 
-a{
+a {
     color: #fff !important;
 }
 
 #navbar-attr1{
     margin-left: 70%;
+    
 }
 
 /* end of profile navbar */
@@ -45,6 +46,37 @@ a{
 
 .profile-picture{
     border-radius: 50%;
+}
+
+.textarea:not([rows]) {
+    max-height: 600px;
+    min-height: 69px !important;
+    margin-top: 10px;
+}
+
+#textarea-control{
+    width: 750px;
+}
+#profile-name{
+    margin-top: 25px;
+}
+
+#profile-details{
+    margin-bottom: 0px;
+}
+
+#follow-button{
+    border-radius: 0;
+    width: 200px;
+    margin-top: 25px;
+    margin-right: 4%;
+}
+
+.status-text{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: -6%;
+    color: black;
 }
 
 /* end of profile body */

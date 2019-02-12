@@ -6,7 +6,7 @@
         <title>Profile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="css/profile.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/workshop-profile.css" />
+        
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
         <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -59,30 +59,50 @@
                         <img  class="profile-picture" src="https://via.placeholder.com/96x96.png">
                       </p>
                     </figure>
+                    
                     <div class="media-content">
+                            <p id="profile-name" class="title is-5">John Smith</p>
+                            <p id="profile-details"class="subtitle is-7">123 reviews 455 followers</p>
                       <div class="field">
-                        <p class="control">
-                          <textarea class="textarea" placeholder="Add a comment..."></textarea>
+                        <p id="textarea-control" class="control">
+                          <textarea class="textarea" placeholder="Write your toughts..."></textarea>
                         </p>
                       </div>
                       <nav class="level">
                         <div class="level-left">
                           <div class="level-item">
-                            <a class="button is-info">Submit</a>
-                          </div>
-                        </div>
-                        <div class="level-right">
-                          <div class="level-item">
-                            <label class="checkbox">
-                              <input type="checkbox"> Press enter to submit
-                            </label>
+                            <a class="button is-black" style="border-radius: 0px;">Request a refferal</a>
                           </div>
                         </div>
                       </nav>
                     </div>
                   </article>
             </div>
+            <div  id="profile-card" class="card">
+                    <article class="media">
+                        <figure class="media-left">
+                          <p id="profile-picture">
+                            <img  class="profile-picture" src="https://via.placeholder.com/96x96.png">
+                          </p>
+                        </figure>
+                        
+                        <div class="media-content">
+                                <p id="profile-name" class="title is-5">John Smith</p>
+                                <p id="profile-details"class="subtitle is-7">123 reviews 455 followers 3 hours ago</p>
+                        </div>
+                        <a id="follow-button" class="button is-black" >Follow</a>
+                      </article>
+                      <div class="level-right">
+                                <p class="status-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros lacus, nec ultricies elit blandit non. Suspendisse pellentesque mauris sit amet dolor blandit rutrum. Nunc in tempus turpis.
+                                        <br>
+                                        <small><a style="color: #000">Like</a> · <a style="color: #000">Reply</a> · 3 hrs</small>
+                                      </p>
+					    </div>
+                </div>
             </div>
+
+            
         
         <!-- end of profile body -->
         <!-- start of sidebar -->
