@@ -1,5 +1,5 @@
 html{
-    margin: 0px;
+    margin: 10px;
 }
 
 body{
@@ -15,7 +15,7 @@ div{
     padding: 0px !important;
     margin: 0px !important;
 }
-
+/* start of profile navbar */
 #navbar-home {
     background-color:#000; 
 }
@@ -23,3 +23,28 @@ div{
 a{
     color: #fff !important;
 }
+
+#navbar-attr1{
+    margin-left: 70%;
+}
+
+/* end of profile navbar */
+/* start of profile body */
+#profile-card{
+    height: 207px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#profile-picture{
+    
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.profile-picture{
+    border-radius: 50%;
+}
+
+/* end of profile body */

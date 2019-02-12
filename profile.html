@@ -6,6 +6,7 @@
         <title>Profile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="css/profile.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/workshop-profile.css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
         <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -20,61 +21,70 @@
         <!-- header/navbar start -->
 
         <div  id="navbar-home" class="navbar is-expanded">
-            
-                    <div  id="navbar-attr1" class="navbar-item">
-                            <a href="#">ARTICLES</a>
-                    </div>
-                    <div id="navbar-attr2" class="navbar-item">
-                            <a href="#">COMMUNITY</a>
-                    </div>
-                    <div id="navbar-attr3" class="navbar-item">
-                            <a href="#">WORKSHOP</a>
-                    </div>
-                    <div id="navbar-attr4" class="navbar-item">
-                            <a href="#">MARKETPLACE</a>
-                    </div>
-                    <div id="navbar-attr5" class="navbar-item">
-                            <a href="#">REGISTER</a>&nbsp;|&nbsp;<a href="#">LOG IN</a>
-                    </div>
-            
-        </div>
-        <div class="column is-9">
-            <div class="container">
-                <div class="card">
-                        <article class="media">
-                                <figure class="media-left">
-                                  <p class="image is-64x64">
-                                    <img src="https://bulma.io/images/placeholders/128x128.png">
-                                  </p>
-                                </figure>
-                                <div class="media-content">
-                                  <div class="content">
-                                    <p>
-                                      <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-                                      <br>
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-                                    </p>
-                                  </div>
-                                  <nav class="level is-mobile">
-                                    <div class="level-left">
-                                      <a class="level-item">
-                                        <span class="icon is-small"><i class="fas fa-reply"></i></span>
-                                      </a>
-                                      <a class="level-item">
-                                        <span class="icon is-small"><i class="fas fa-retweet"></i></span>
-                                      </a>
-                                      <a class="level-item">
-                                        <span class="icon is-small"><i class="fas fa-heart"></i></span>
-                                      </a>
-                                    </div>
-                                  </nav>
-                                </div>
-                              </article>
-                              <div class="button">Upload Photos</div>
-                </div>
+          <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+              <img src="./spd-asset/logo-sc.png">
+            </a>
+          
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div  id="navbar-attr1" class="navbar-item">
+                  <a href="#">ARTICLES</a>
+          </div>
+          <div id="navbar-attr2" class="navbar-item">
+                  <a href="#">COMMUNITY</a>
+          </div>
+          <div id="navbar-attr3" class="navbar-item">
+                  <a href="#">WORKSHOP</a>
+          </div>
+          <div id="navbar-attr4" class="navbar-item">
+                  <a href="#">MARKETPLACE</a>
+          </div>
+          <div id="navbar-attr5" class="navbar-item">
+                  <a href="#">REGISTER</a>&nbsp;|&nbsp;<a href="#">LOG IN</a>
+          </div>
+              </div>
             </div>
+            
         </div>
+        </div>
+        <!-- end of header navbar -->
+        <div class="columns">
+            <!-- start of profile body -->
+            <div class="column is-8">
+                <div  id="profile-card" class="card">
+                <article class="media">
+                    <figure class="media-left">
+                      <p id="profile-picture">
+                        <img  class="profile-picture" src="https://via.placeholder.com/96x96.png">
+                      </p>
+                    </figure>
+                    <div class="media-content">
+                      <div class="field">
+                        <p class="control">
+                          <textarea class="textarea" placeholder="Add a comment..."></textarea>
+                        </p>
+                      </div>
+                      <nav class="level">
+                        <div class="level-left">
+                          <div class="level-item">
+                            <a class="button is-info">Submit</a>
+                          </div>
+                        </div>
+                        <div class="level-right">
+                          <div class="level-item">
+                            <label class="checkbox">
+                              <input type="checkbox"> Press enter to submit
+                            </label>
+                          </div>
+                        </div>
+                      </nav>
+                    </div>
+                  </article>
+            </div>
+            </div>
         
-
-    </body>
-</html>
+        <!-- end of profile body -->
+        <!-- start of sidebar -->
+        <!-- end of sidebar -->
+    </div>
